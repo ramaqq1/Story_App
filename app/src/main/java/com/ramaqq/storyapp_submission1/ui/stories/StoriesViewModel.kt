@@ -15,11 +15,6 @@ class StoriesViewModel(private val repository: StoryRepository) : ViewModel() {
         this.pref = pref
     }
 
-    val getCompleteStories: LiveData<PagingData<ListStoryItem>> =
-        pref.getUser().asLiveData().switchMap{
-            repository.getListStories("Bearer ${it.token}").cachedIn(viewModelScope)
-        }
-
     fun getData(token: String): LiveData<PagingData<ListStoryItem>>{
         return repository.getListStories("Bearer $token").cachedIn(viewModelScope)
         }
@@ -29,6 +24,5 @@ class StoriesViewModel(private val repository: StoryRepository) : ViewModel() {
     fun getUser(): LiveData<UserModel>{
         return pref.getUser().asLiveData()
     }
-
 
 }

@@ -39,6 +39,9 @@ class StoriesFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
         pref = UserPreference.getInstance(requireActivity().dataStore)
 
+//        viewModel = ViewModelProvider(this)[StoriesViewModel::class.java]
+//        val adapter = StoriesAdapter()
+
         var token: String
         val factory: ViewModelFactory = ViewModelFactory.getInstance(requireContext())
         val viewModel: StoriesViewModel by viewModels { factory }
@@ -64,12 +67,6 @@ class StoriesFragment : Fragment() {
                 if (data != null)
                     adapter.submitData(lifecycle, data)
             }
-
-
-//        viewModel.getCompleteStories.observe(viewLifecycleOwner) {
-//            if (it != null)
-//                adapter.submitData(lifecycle, it)
-//        }
         }
     }
 }
