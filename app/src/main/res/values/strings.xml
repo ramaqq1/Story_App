@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Story App_Submission 1</string>
+    <string name="title_activity_register">RegisterActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="username_hint">Enter your username</string>
+    <string name="hint_email">Enter your email</string>
+    <string name="hint_password">Enter your password</string>
+    <string name="title_home">Stories</string>
+    <string name="title_profile">Profile</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="setting">Setting</string>
+    <string name="language">Language</string>
+    <string name="reminder">Reminder</string>
+    <string name="logout">Logout</string>
+    <string name="desc_upload">Upload by %1$s </string>
+    <string name="cth_desc">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,</string>
+    <string name="posted_on">Poster on %1$s</string>
+    <string name="upload">Upload</string>
+    <string name="camera">Camera</string>
+    <string name="galery">Galery</string>
+    <string name="camera_failed">Gagal menjalankan Kamera.</string>
+    <string name="camera_success">berhasil mengambil gambar</string>
+    <string name="succes_add_story">berhasil menambahkan cerita</string>
+    <string name="failed_add_story">gagal mengupload cerita</string>
+    <string name="hint_image">-- Chose your image --</string>
+    <string name="failed_load_page">Failed to load the page</string>
+    <string name="title_error">Connection Lost</string>
+    <string name="password">password</string>
+    <string name="welcome_login">Hello !?</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="desc_register">Don\'t have an account yet?</string>
+    <string name="desc_welcome_login">Please enter your account</string>
+    <string name="title_register">Register</string>
+    <string name="desc_register_page">Let\'s find your story in <b> Tell Me a Story</b>, but before doing that let create your account!!</string>
+    <string name="desc_to_login">Already have account?</string>
+    <string name="desc_img">Write down what you think</string>
+    <string name="hint_desc_img">Write here…</string>
+    <string name="min_pass">Password must have minimal 8 character</string>
+    <string name="error_email">Please enter valid email format</string>
+    <string name="em_unknown">Unknown error</string>
+    <string name="em_io_exception">Couldn\'t reach server.</string>
+    <string name="location">Location</string>
+    <string name="retry">try again</string>
+    <string name="map">map</string>
+
+
+</resources>

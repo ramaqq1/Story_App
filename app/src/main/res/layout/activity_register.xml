@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.register.RegisterActivity">
+
+  <ProgressBar
+      android:visibility="gone"
+      android:id="@+id/progressbar"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/tv_title"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="24dp"
+      android:layout_marginTop="64dp"
+      android:layout_marginEnd="24dp"
+      android:text="@string/title_register"
+      android:alpha="0"
+      android:textColor="@color/navi"
+      android:textSize="28sp"
+      android:textStyle="bold"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
+
+  <TextView
+      android:id="@+id/tv_desc_title"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginStart="24dp"
+      android:layout_marginTop="8dp"
+      android:layout_marginEnd="24dp"
+      android:text="@string/desc_register_page"
+      android:alpha="0"
+      android:textSize="14sp"
+      android:textColor="@color/navi"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/tv_title" />
+
+  <TextView
+      android:id="@+id/tv_username"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="54dp"
+      android:alpha="0"
+      android:text="username"
+      app:layout_constraintEnd_toEndOf="@+id/tv_desc_title"
+      app:layout_constraintStart_toStartOf="@+id/tv_desc_title"
+      app:layout_constraintTop_toBottomOf="@+id/tv_desc_title" />
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/usernameEditTextLayout"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="4dp"
+      android:alpha="0"
+      app:layout_constraintEnd_toEndOf="@+id/tv_username"
+      app:layout_constraintStart_toStartOf="@+id/tv_username"
+      app:layout_constraintTop_toBottomOf="@+id/tv_username"
+      app:startIconDrawable="@drawable/ic_person"
+      tools:ignore="SpeakableTextPresentCheck">
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/username_hint"
+        android:inputType="text" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+  <TextView
+      android:id="@+id/tv_email"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="email"
+      android:alpha="0"
+      app:layout_constraintEnd_toEndOf="@+id/usernameEditTextLayout"
+      app:layout_constraintStart_toStartOf="@+id/tv_username"
+      app:layout_constraintTop_toBottomOf="@+id/usernameEditTextLayout" />
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/emailEditTextLayout"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+      android:layout_width="0dp"
+      android:alpha="0"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="4dp"
+      app:layout_constraintEnd_toEndOf="@+id/tv_email"
+      app:layout_constraintStart_toStartOf="@+id/tv_email"
+      app:layout_constraintTop_toBottomOf="@+id/tv_email"
+      app:startIconDrawable="@drawable/ic_round_email"
+      tools:ignore="SpeakableTextPresentCheck">
+
+    <com.ramaqq.storyapp_submission1.customview.EditTextEmail
+        android:id="@+id/edt_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textEmailAddress"
+        tools:ignore="SpeakableTextPresentCheck" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+
+  <TextView
+      android:id="@+id/tv_password"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="24dp"
+      android:text="@string/password"
+      android:alpha="0"
+      app:layout_constraintEnd_toEndOf="@+id/emailEditTextLayout"
+      app:layout_constraintStart_toStartOf="@+id/emailEditTextLayout"
+      app:layout_constraintTop_toBottomOf="@+id/emailEditTextLayout" />
+
+  <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/passwordEditTextLayout"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+      android:layout_width="0dp"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="4dp"
+      android:alpha="0"
+      app:layout_constraintEnd_toEndOf="@+id/emailEditTextLayout"
+      app:layout_constraintStart_toStartOf="@+id/tv_email"
+      app:layout_constraintTop_toBottomOf="@+id/tv_password"
+      app:passwordToggleEnabled="true"
+      app:startIconDrawable="@drawable/ic_lock">
+
+    <com.ramaqq.storyapp_submission1.customview.EditTextPass
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        app:passwordToggleEnabled="true"
+        tools:ignore="SpeakableTextPresentCheck" />
+  </com.google.android.material.textfield.TextInputLayout>
+
+
+  <com.ramaqq.storyapp_submission1.customview.MyButton
+      android:id="@+id/btnRegister"
+      android:layout_width="0dp"
+      android:layout_height="54dp"
+      android:layout_marginStart="40dp"
+      android:layout_marginTop="48dp"
+      android:layout_marginEnd="40dp"
+      android:alpha="0"
+      android:text="@string/register"
+      android:textAllCaps="false"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/passwordEditTextLayout" />
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/lay_login"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="32dp"
+      android:alpha="0"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toBottomOf="@+id/btnRegister">
+
+    <TextView
+        android:id="@+id/tv_desc_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:alpha="1"
+        android:text="@string/desc_to_login"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tv_register"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:alpha="1"
+        android:text="@string/login"
+        android:textColor="@color/navi"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tv_desc_register"
+        app:layout_constraintTop_toTopOf="@+id/tv_desc_register" />
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
