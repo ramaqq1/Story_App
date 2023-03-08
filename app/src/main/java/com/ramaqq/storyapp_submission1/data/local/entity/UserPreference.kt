@@ -1,4 +1,4 @@
-package com.ramaqq.storyapp_submission1.pojo
+package com.ramaqq.storyapp_submission1.data.local.entity
 
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences

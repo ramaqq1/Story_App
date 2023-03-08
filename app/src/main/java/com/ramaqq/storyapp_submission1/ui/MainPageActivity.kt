@@ -4,11 +4,8 @@ import android.content.Context
 import android.content.Intent
 import android.os.Build
 import android.os.Bundle
-import android.view.Menu
-import android.view.MenuItem
 import android.view.WindowInsets
 import android.view.WindowManager
-import android.widget.Toast
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
 import androidx.datastore.core.DataStore
@@ -21,7 +18,7 @@ import androidx.navigation.ui.setupWithNavController
 import com.google.android.material.bottomnavigation.BottomNavigationView
 import com.ramaqq.storyapp_submission1.R
 import com.ramaqq.storyapp_submission1.databinding.ActivityMainPageBinding
-import com.ramaqq.storyapp_submission1.pojo.UserPreference
+import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import com.ramaqq.storyapp_submission1.ui.login.LoginActivity
 
 private val Context.dataStore: DataStore<Preferences> by preferencesDataStore(name = "settings")

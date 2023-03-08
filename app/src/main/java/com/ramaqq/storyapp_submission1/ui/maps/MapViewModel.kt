@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.ramaqq.storyapp_submission1.data.api.ApiClient
 import com.ramaqq.storyapp_submission1.data.response.ListStoryItem
 import com.ramaqq.storyapp_submission1.data.response.StoriesResponse
-import com.ramaqq.storyapp_submission1.pojo.UserPreference
+import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import kotlinx.coroutines.launch
 import retrofit2.Call
 import retrofit2.Callback

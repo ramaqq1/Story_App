@@ -23,8 +23,7 @@ import com.google.android.gms.location.FusedLocationProviderClient
 import com.google.android.gms.location.LocationServices
 import com.ramaqq.storyapp_submission1.R
 import com.ramaqq.storyapp_submission1.databinding.ActivityAddStoryBinding
-import com.ramaqq.storyapp_submission1.pojo.UserPreference
-import com.ramaqq.storyapp_submission1.ui.MainPageActivity
+import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import com.ramaqq.storyapp_submission1.ui.uriToFile
 import okhttp3.MediaType.Companion.toMediaTypeOrNull
 import okhttp3.MultipartBody

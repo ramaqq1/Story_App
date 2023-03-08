@@ -7,7 +7,7 @@ import androidx.lifecycle.viewModelScope
 import com.ramaqq.storyapp_submission1.data.api.ApiClient
 import com.ramaqq.storyapp_submission1.data.response.LoginResponse
 import com.ramaqq.storyapp_submission1.data.response.LoginResult
-import com.ramaqq.storyapp_submission1.pojo.UserPreference
+import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import kotlinx.coroutines.launch
 import org.json.JSONObject
 import retrofit2.Call

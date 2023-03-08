@@ -8,7 +8,6 @@ import androidx.fragment.app.Fragment
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.Toast
 import androidx.datastore.core.DataStore
 import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
@@ -23,8 +22,7 @@ import com.google.android.gms.maps.model.MarkerOptions
 import com.ramaqq.storyapp_submission1.R
 import com.ramaqq.storyapp_submission1.data.response.ListStoryItem
 import com.ramaqq.storyapp_submission1.databinding.FragmentMapsBinding
-import com.ramaqq.storyapp_submission1.databinding.FragmentStoriesBinding
-import com.ramaqq.storyapp_submission1.pojo.UserPreference
+import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import java.io.IOException
 import java.util.*
 

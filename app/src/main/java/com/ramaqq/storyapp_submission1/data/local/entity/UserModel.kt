@@ -1,4 +1,4 @@
-package com.ramaqq.storyapp_submission1.pojo
+package com.ramaqq.storyapp_submission1.data.local.entity
 
 data class UserModel(
     val userId: String,

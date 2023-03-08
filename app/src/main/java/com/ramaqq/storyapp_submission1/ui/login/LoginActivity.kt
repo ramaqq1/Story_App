@@ -21,7 +21,7 @@ import androidx.datastore.preferences.core.Preferences
 import androidx.datastore.preferences.preferencesDataStore
 import com.ramaqq.storyapp_submission1.databinding.ActivityLoginBinding
 import com.ramaqq.storyapp_submission1.data.response.LoginResult
-import com.ramaqq.storyapp_submission1.pojo.UserPreference
+import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import com.ramaqq.storyapp_submission1.ui.MainPageActivity
 import com.ramaqq.storyapp_submission1.ui.register.RegisterActivity
 

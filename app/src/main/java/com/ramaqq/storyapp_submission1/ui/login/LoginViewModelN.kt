@@ -4,7 +4,7 @@ import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ramaqq.storyapp_submission1.data.StoryRepository
 import com.ramaqq.storyapp_submission1.data.response.LoginResult
-import com.ramaqq.storyapp_submission1.pojo.UserPreference
+import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import kotlinx.coroutines.launch
 
 class LoginViewModelN(private val storyRepository: StoryRepository): ViewModel() {

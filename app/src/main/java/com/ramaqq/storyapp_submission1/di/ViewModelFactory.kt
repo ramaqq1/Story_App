@@ -4,7 +4,6 @@ import android.content.Context
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import com.ramaqq.storyapp_submission1.data.StoryRepository
-import com.ramaqq.storyapp_submission1.pojo.UserPreference
 import com.ramaqq.storyapp_submission1.ui.login.LoginViewModelN
 import com.ramaqq.storyapp_submission1.ui.stories.StoriesViewModel
 
