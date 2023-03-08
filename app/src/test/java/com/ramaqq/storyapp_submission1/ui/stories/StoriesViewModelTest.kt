@@ -29,7 +29,7 @@ import org.mockito.junit.MockitoJUnitRunner
 @RunWith(MockitoJUnitRunner::class)
 class StoriesViewModelTest{
 
-    @Rule
+    @get:Rule
     val instantExecutorRule = InstantTaskExecutorRule()
 
     @get:Rule
