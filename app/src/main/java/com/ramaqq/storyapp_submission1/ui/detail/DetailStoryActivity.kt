@@ -17,7 +17,7 @@ import com.bumptech.glide.load.resource.drawable.DrawableTransitionOptions
 import com.bumptech.glide.request.RequestOptions
 import com.ramaqq.storyapp_submission1.R
 import com.ramaqq.storyapp_submission1.databinding.ActivityDetailStoryBinding
-import com.ramaqq.storyapp_submission1.pojo.Story
+import com.ramaqq.storyapp_submission1.data.response.Story
 import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import com.ramaqq.storyapp_submission1.ui.getTime
 import java.text.ParseException

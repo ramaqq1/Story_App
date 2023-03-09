@@ -1,4 +1,4 @@
-package com.ramaqq.storyapp_submission1.pojo
+package com.ramaqq.storyapp_submission1.data.response
 
 import com.google.gson.annotations.SerializedName
 

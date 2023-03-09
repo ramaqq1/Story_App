@@ -1,7 +1,6 @@
 package com.ramaqq.storyapp_submission1.data.api
 
-import com.ramaqq.storyapp_submission1.data.response.LoginResponse
-import com.ramaqq.storyapp_submission1.data.response.StoriesResponse
+import com.ramaqq.storyapp_submission1.data.response.*
 import com.ramaqq.storyapp_submission1.pojo.*
 import okhttp3.MultipartBody
 import retrofit2.Call

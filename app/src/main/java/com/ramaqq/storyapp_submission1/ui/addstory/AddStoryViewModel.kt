@@ -6,7 +6,7 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ramaqq.storyapp_submission1.data.api.ApiClient
-import com.ramaqq.storyapp_submission1.pojo.UploadResponse
+import com.ramaqq.storyapp_submission1.data.response.UploadResponse
 import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import kotlinx.coroutines.launch
 import okhttp3.MultipartBody

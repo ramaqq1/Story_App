@@ -4,7 +4,7 @@ import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import com.ramaqq.storyapp_submission1.data.api.ApiClient
-import com.ramaqq.storyapp_submission1.pojo.SignUpResponse
+import com.ramaqq.storyapp_submission1.data.response.SignUpResponse
 import org.json.JSONObject
 import retrofit2.Call
 import retrofit2.Callback

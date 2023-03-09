@@ -5,8 +5,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
 import com.ramaqq.storyapp_submission1.data.api.ApiClient
-import com.ramaqq.storyapp_submission1.pojo.DetailResponse
-import com.ramaqq.storyapp_submission1.pojo.Story
+import com.ramaqq.storyapp_submission1.data.response.DetailResponse
+import com.ramaqq.storyapp_submission1.data.response.Story
 import com.ramaqq.storyapp_submission1.data.local.entity.UserPreference
 import kotlinx.coroutines.launch
 import retrofit2.Call
